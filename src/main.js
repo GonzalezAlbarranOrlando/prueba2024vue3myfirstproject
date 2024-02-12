@@ -6,10 +6,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // npm install @fortawesome/fontawesome-free
 import '@fortawesome/fontawesome-free/css/all.css';
 
+import Inicio from '@/components/Inicio.vue';
 import Test from '../src/components/Test.vue';
 import Acerca from '../src/components/Acerca.vue';
 
 const routes = [
+  {
+    path: '/',
+    name: 'Inicio',
+    component: Inicio
+  },
   {
     path: '/test',
     name: 'Test',

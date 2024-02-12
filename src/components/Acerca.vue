@@ -6,6 +6,8 @@
     <button class="btn btn-primary"><i class="fas fa-star"></i> Botón de Bootstrap con icono de FontAwesome</button>
     <br/>
     <router-link to="/test">Test</router-link>
+    <br>
+    <router-link to="/">Inicio</router-link>
   </div>
 </template>
   
